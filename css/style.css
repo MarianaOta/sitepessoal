@@ -1,4 +1,7 @@
-* {align-items: center;
+* {
+  
+  background-image: url(/img/pexels-chuck-conway-2890467.jpg);
+  
   
 }
 
@@ -6,27 +9,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
+height: 900px;
+border-radius: 50px;
+background-color: #101626;
+
 
 }
 
 h1 {
   font-family: 'Courier New', Courier, monospace;
+  background: none;
+  display: block;
+
 }
 
 .box1{
 
-background-color: rgb(160, 209, 211);
+
 font-size: large;
-color: white;
+color: #7775BF;
 font-family: 'Courier New', Courier, monospace;
 max-width: 100%;
-display: inline-block;
-align-items: center;
-justify-content: center;
+display: block;
+background-color: #101626;
+
  }
 
 
   dl {
+  
     display:block;
     font-family: 'Courier New', Courier, monospace;
     margin: 5px;
@@ -44,6 +55,7 @@ justify-content: center;
     display: block;
     margin: 20px;
     padding: 5px;
+    text-decoration: none;
     
   }
 
@@ -55,3 +67,8 @@ justify-content: center;
  
   }
 
+p {
+
+  display: block;
+
+}
